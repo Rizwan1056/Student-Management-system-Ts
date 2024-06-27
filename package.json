@@ -1,0 +1,26 @@
+{
+  "name": "@rizwan_ahmed/student-management-system",
+  "version": "1.1.0",
+  "description": "Student Management System",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "student-management-system": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rizwan Ahmed Soomro",
+  "license": "MIT",
+  "dependencies": {
+    "@rizwan_ahmed/student-management-system": "^1.1.0",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
