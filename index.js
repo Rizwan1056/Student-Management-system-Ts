@@ -53,7 +53,7 @@ console.log(chalk.green.italic(`\n\tYou select payment method${paymentType.payme
 const tutionFees = tutionFee[answer.courses];
 const paymentAmount = parseFloat(paymentType.amount);
 if (tutionFees === paymentAmount) {
-    console.log(chalk.overline(chalk.magenta(`\n\tCONGRATULATION!!!! You have successfully enrolled in ${answer.courses}\t\n`)));
+    console.log((chalk.greenBright(`\n\tCONGRATULATION!!!! You have successfully enrolled in ${answer.courses}\t\n`)));
     let ans = await inquirer.prompt([{
             name: "select",
             type: "list",
@@ -64,7 +64,7 @@ if (tutionFees === paymentAmount) {
     if (ans.select === "View status") {
         console.log("\n\t ***************** Status *************************\t\n");
         console.log(chalk.blue(`\n\tStudent Name ${answer.student}`));
-        console.log(chalk.bgBlue.bold(`\n\t Studen ID : ${randomNumber}`));
+        console.log(chalk.bgBlue.bold(`\n\t Student ID : ${randomNumber}`));
         console.log(chalk.bgBlue.bold(`\n\t Course : ${answer.courses}`));
         console.log(chalk.bgBlue.bold(`\n\t Tution Fees ${paymentAmount}`));
         console.log(chalk.bgBlue.bold(`\n\t Balance : ${myBalance += paymentAmount}`));
