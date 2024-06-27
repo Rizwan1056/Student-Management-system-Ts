@@ -1,6 +1,6 @@
 {
   "name": "@rizwan_ahmed/student-management-system",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Student Management System",
   "main": "index.js",
   "type": "module",
@@ -17,7 +17,7 @@
   "author": "Rizwan Ahmed Soomro",
   "license": "MIT",
   "dependencies": {
-    "@rizwan_ahmed/student-management-system": "^1.1.0",
+    "@rizwan_ahmed/student-management-system": "^1.1.1",
     "inquirer": "^9.2.23"
   },
   "devDependencies": {
